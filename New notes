@@ -1,0 +1,72 @@
+Chatgpt is an AI assistant that helps you with research, notes, translation, ideas or inspiration. Chagpt can help you get things started like if your working on a project and you dont have any ideas
+
+GitHub is a web-based platform primarily used for version control and collaborative software development. It uses Git, a distributed version control system allowing multiple people to work on multiple projects.
+
+Monkeytype is an online typing test and practice platform that helps users improve their typing speed and accuracy. It offers a variety of features
+
+Adobe Firefly is a suite of generative AI tools developed by Adobe, aimed at enhancing creativity and streamlining design workflows.
+
+Debian (Which is what I am using right now) is a popular and influential open-sourced operation system [OS] based on the Linux kernal
+The terminal has many uses which has commands that you can practice with, Here are my notes for commands:
+
+
+Basic terminal navigation:
+
+uname –a : display system
+lsb_release -a : shows the Debian version currently installed
+cat  / etc/os/release : prints information about the [OS] (Operating system)
+cat filename.txt : To view contents of a file
+xdg-open filename.pdf : To open a file in default application
+
+Directory commands:
+
+pwd : Displays your current directory 
+1s : Lists files and directories 
+1s –1 : Detailed view 
+1s –a : shows hidden files 
+cd : changes the directory 
+cd /path/to/directory : Absolute path 
+cd Documents : relative path 
+cd ~ : (go to home directory) 
+cd .. : (move up one directory) 
+touch filename.txt : Creates an empty file 
+mkdir myfolder : Creates a new directory
+ls : view file permissions
+chmod u+x filename : Adds exucute permissions for the user
+chown : Modifies file permissions
+su - : Enter the root directory
+touch : creates a file
+nano : edits a file
+rm : removes file
+mv : Moves a file
+cp : Copies a file
+
+Git commands :
+
+git init : Initializes a git repository
+git add : Stages changes
+git commit -m : Commits changes, or committing changes
+git push : Pushing changes to github 
+git pull : Pulling updates to github
+
+Sudo commands :
+
+sudo apt update : Updates the list of available packages
+sudo apt upgrade : Upgrades all installed packages to the latest version
+sudo apt install package_name : Installs the specified package
+sudo apt remove package_name :  Removes the specified package 
+sudo apt search package_name : Searches for a package in the repositories.
+sudo apt show package_name : Displays detailed information about a specified pa>
+sudo apt autoremove : Removes unnecessary packages that were automatically inst>
+sudo reboot : Reboots the system
+sudo shutdown now : Immediately shuts down the system.
+sudo passwd root : changes password for the root user
+sudo nano /path/to/file : Opens specified file for editing with nano as a super>
+sudo journalctl : Displays logs collected by the sytemd journal.
+
+GitKraken:
+
+
+
+
+
