@@ -41,6 +41,7 @@ rm : removes file
 mv : Moves a file
 cp : Copies a file
 
+
 Git commands :
 
 git init : Initializes a git repository
@@ -48,6 +49,8 @@ git add : Stages changes
 git commit -m : Commits changes, or committing changes
 git push : Pushing changes to github 
 git pull : Pulling updates to github
+git branch : Shows branches
+git checkout : -b : Creates new branches
 
 Sudo commands :
 
@@ -56,15 +59,21 @@ sudo apt upgrade : Upgrades all installed packages to the latest version
 sudo apt install package_name : Installs the specified package
 sudo apt remove package_name :  Removes the specified package 
 sudo apt search package_name : Searches for a package in the repositories.
-sudo apt show package_name : Displays detailed information about a specified pa>
-sudo apt autoremove : Removes unnecessary packages that were automatically inst>
+sudo apt show package_name : Displays detailed information about a specified package
+sudo apt autoremove : Removes unnecessary packages that were automatically installed
 sudo reboot : Reboots the system
 sudo shutdown now : Immediately shuts down the system.
 sudo passwd root : changes password for the root user
-sudo nano /path/to/file : Opens specified file for editing with nano as a super>
+sudo nano /path/to/file : Opens specified file for editing with nano as a super user
 sudo journalctl : Displays logs collected by the sytemd journal.
 
-GitKraken:
+Built-in commands :
+
+echo : Displays a line of text or the value of a variable on to the screen
+if : Checks a condition, if true, exucutes a block of code 
+elif : Lets you specify a new condition if previous condition is false
+else : Allows you to specify commands that should run when none of the previous conditions are met 
+
 
 
 
