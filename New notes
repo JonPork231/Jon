@@ -62,16 +62,9 @@ sudo reboot : Reboots the system
 sudo shutdown now : Immediately shuts down the system.
 sudo passwd root : changes password for the root user
 sudo nano /path/to/file : Opens specified file for editing with nano as a super>
-sudo journalctl : Displays logs collected by the sytemd operator
+sudo journalctl : Displays logs collected by the sytemd journal.
 
-Bash:
-
-Bash (Born Again Shell) is a command-line interface (CLI) and scripting language
-used on Unix-based systems like Linux and macOS. 
-It allows users to interact with the operating system bu running commands and automating
-task through scripts.
-
-
+GitKraken:
 
 
 
