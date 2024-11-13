@@ -1,0 +1,100 @@
+Chatgpt is an AI assistant that helps you with research, notes, translation, ideas or inspiration. Chagpt can help you get things started like if your working on a project and you dont have any ideas
+
+GitHub is a web-based platform primarily used for version control and collaborative software development. It uses Git, a distributed version control system allowing multiple people to work on multiple projects.
+
+Monkeytype is an online typing test and practice platform that helps users improve their typing speed and accuracy. It offers a variety of features
+
+Adobe Firefly is a suite of generative AI tools developed by Adobe, aimed at enhancing creativity and streamlining design workflows.
+
+Debian (Which is what I am using right now) is a popular and influential open-sourced operation system [OS] based on the Linux kernal
+The terminal has many uses which has commands that you can practice with, Here are my notes for commands:
+
+
+Basic terminal navigation:
+
+uname –a : display system
+lsb_release -a : shows the Debian version currently installed
+cat  / etc/os/release : prints information about the [OS] (Operating system)
+cat filename.txt : To view contents of a file
+xdg-open filename.pdf : To open a file in default application
+
+Directory commands:
+
+pwd : Displays your current directory 
+1s : Lists files and directories 
+1s –1 : Detailed view 
+1s –a : shows hidden files 
+cd : changes the directory 
+cd /path/to/directory : Absolute path 
+cd Documents : relative path 
+cd ~ : (go to home directory) 
+cd .. : (move up one directory) 
+touch filename.txt : Creates an empty file 
+mkdir myfolder : Creates a new directory
+ls : view file permissions
+chmod u+x filename : Adds exucute permissions for the user
+chown : Modifies file permissions
+su - : Enter the root directory
+touch : creates a file
+nano : edits a file
+rm : removes file
+mv : Moves a file
+cp : Copies a file
+
+
+Git commands :
+
+git init : Initializes a git repository
+git add : Stages changes
+git commit -m : Commits changes, or committing changes
+git push : Pushing changes to github 
+git pull : Pulling updates to github
+git branch : Shows branches
+git checkout : -b : Creates new branches
+
+Sudo commands :
+
+sudo apt update : Updates the list of available packages
+sudo apt upgrade : Upgrades all installed packages to the latest version
+sudo apt install package_name : Installs the specified package
+sudo apt remove package_name :  Removes the specified package 
+sudo apt search package_name : Searches for a package in the repositories.
+sudo apt show package_name : Displays detailed information about a specified package
+sudo apt autoremove : Removes unnecessary packages that were automatically installed
+sudo reboot : Reboots the system
+sudo shutdown now : Immediately shuts down the system.
+sudo passwd root : changes password for the root user
+sudo nano /path/to/file : Opens specified file for editing with nano as a super user
+sudo journalctl : Displays logs collected by the sytemd journal.
+
+Shell scripts :
+
+echo : Displays a line of text or the value of a variable on to the screen
+if : Checks a condition, if true, exucutes a block of code 
+elif : Lets you specify a new condition if previous condition is false
+else : Allows you to specify commands that should run when none of the previous conditions are met 
+break : Exit a loop early
+while : Loop while a condition is true
+for : Loop through items
+case : Simplify multiple conditions
+continue : Skip to the next iteration in a loop
+fi : Close an if statement.
+esac : Close a case statement, similar to how fi closes an if block.
+$ :  Accesses the value stored in the name variable and prints it
+| : Pass the output of one command as input to another command.
+read : Reads the user inputs 
+srand : Seeds the random number generator.
+min : Scales the range for smallest
+rand : Generates a random number between 1 and 0.
+max : Scales the range for the Largest
+declare : To declare variables, set their attributes, or create functions.
+printf : Used to format and print data, much like it is used in languages like C
+%.2f : Format specifier in shell script "printf"
+{    } : Has several uses depending on the context.
+
+
+
+
+
+
+

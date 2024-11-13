@@ -1,0 +1,33 @@
+uname –a : display system  
+
+lsb_release -a : shows the Debian version currently installed  
+
+cat  / etc/os/release : prints information about the [OS] (Operating system) 
+
+cat filename.txt : To view contents of a file 
+
+xdg-open filename.pdf : To open a file in default application 
+
+pwd : Displays your current directory 
+
+1s : Lists files and directories 
+
+1s –1 : Detailed view 
+
+1s –a : shows hidden files 
+
+cd : changes the directory 
+
+cd /path/to/directory : Absolute path 
+
+cd Documents : relative path 
+
+cd ~ : (go to home directory) 
+
+cd .. : (move up one directory) 
+
+man : [command] 
+
+touch filename.txt : Creates an empty file 
+
+mkdir myfolder : Creates a new directory 
