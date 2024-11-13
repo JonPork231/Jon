@@ -67,12 +67,31 @@ sudo passwd root : changes password for the root user
 sudo nano /path/to/file : Opens specified file for editing with nano as a super user
 sudo journalctl : Displays logs collected by the sytemd journal.
 
-Built-in commands :
+Shell scripts :
 
 echo : Displays a line of text or the value of a variable on to the screen
 if : Checks a condition, if true, exucutes a block of code 
 elif : Lets you specify a new condition if previous condition is false
 else : Allows you to specify commands that should run when none of the previous conditions are met 
+break : Exit a loop early
+while : Loop while a condition is true
+for : Loop through items
+case : Simplify multiple conditions
+continue : Skip to the next iteration in a loop
+fi : Close an if statement.
+esac : Close a case statement, similar to how fi closes an if block.
+$ :  Accesses the value stored in the name variable and prints it
+| : Pass the output of one command as input to another command.
+read : Reads the user inputs 
+srand : Seeds the random number generator.
+min : Scales the range for smallest
+rand : Generates a random number between 1 and 0.
+max : Scales the range for the Largest
+declare : To declare variables, set their attributes, or create functions.
+printf : Used to format and print data, much like it is used in languages like C
+%.2f : Format specifier in shell script "printf"
+{    } : Has several uses depending on the context.
+
 
 
 
